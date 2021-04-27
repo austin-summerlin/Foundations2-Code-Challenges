@@ -52,7 +52,7 @@ test('names Only', () => {
   ]);
 });
 
-test.only('make strings', () => {
+test('make strings', () => {
   const input = [
     {
       name: "Angelina Jolie",
