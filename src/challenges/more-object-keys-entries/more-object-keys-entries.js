@@ -1,4 +1,6 @@
-export function getHouses(characters) {
+export function getHouses(obj) {
+  const arr = Object.values(obj);
+  return arr.map(x => x.house);
 }
 
 export function updateNumbers(obj) {
